@@ -1,0 +1,203 @@
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  /* background-color: #EAF6F6; */
+  color: #40514E;
+  font-size: 100%;
+  text-align: center;
+  font-family: 'Merriweather Sans', sans-serif;
+  margin: 0px;
+}
+
+p{
+  line-height: 1.8;
+   letter-spacing: 1px;
+   margin: 0px;
+}
+
+hr {
+  width: 4%;
+  border-style: dotted none none none;
+  border-width: 6px;
+  color: #66BFBF;
+ /*  border-color: #EAF6F6; */
+  margin: 25px auto;
+}
+
+.left{
+  float: left;
+}
+
+.right{
+  float:right;
+}
+ 
+/* top-contaner *****************************************************************/
+h1 {
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  padding-top: 58px;
+  width: 90%;
+  margin: 0px auto;
+}
+.top-container{
+  background-color: #EAF6F6;
+  position: relative;
+  box-shadow: 0px 0px 40px 40px rgb(234 246 247) ;
+  padding-top: 50px;
+}
+.clouddown {
+  position: absolute;
+  left: 250px;
+  top: 240px;
+}
+
+.clouddown:hover{
+  position: absolute;
+  left: 200px;
+  top: 290px;
+}
+
+.cloudup {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.cloudup:hover {
+  position: absolute;
+  top: 0px;
+  right: 250px;
+}
+
+.mountain {
+  width: 50%;
+}
+
+.sun {
+width:125px;
+height:125px;
+border-radius: 50%;
+background-color: yellow;
+color:#66BFBF;
+width: 10%;
+margin: 0 60%;
+min-width: 120px;;
+}
+
+.sun a {
+  display:block;
+  padding: 53px 0;
+  text-decoration: none;
+  color:#66BFBF;
+}
+
+/* about ****************/
+.about {
+  width: 50%;
+  margin: 10% auto;
+  font-weight: bold;
+}
+.myImg {
+  width: 30%;
+}
+
+
+/* projects *********************************************/
+  .projects {
+  font-weight: 800;
+  padding: 5% 0;
+  background-color: #EAF6F6;
+  box-shadow: 0px 0px 40px 40px rgb(234 246 247) ;
+}
+
+.row-item {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  font-weight: 800;
+}
+
+.row-img {
+  width: 40%; 
+  margin: 0 30px;
+  box-shadow: 0px 0px 20px 10px rgb(102 191 191);
+}
+
+.row-img:hover{
+  transform: scale(1.2,1.2);
+}
+
+.row-item h3{
+  display:inline-block;
+  margin: 0 0 10px;
+  letter-spacing: 2px;
+}
+
+/*************   skills   ********************************/
+.skills{
+  background-color: white;
+  margin: 10% auto;
+}
+
+.skills-img {
+  width: 25%;
+  margin: 0 30px;
+}
+
+/***************    contact   **************************************/
+.contact-msg{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.footer{
+  height: 150px;
+  background: #66BFBF;
+  padding-top: 50px;
+}
+.curve-bottom{
+  position: relative;
+  top: 4px;
+}
+
+.btn {
+  background: #66BFBF;
+  border-radius: 10px;
+  border-style: solid;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  font-weight: 300;
+
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  color: #ffffff !important;
+  text-decoration: none;
+}
+
+@media (max-width:960px) {
+  .cloudup{
+    display:none;
+  }
+  .clouddown{
+    display:none;
+  }
+
+  .row-img {
+    width: 100%;
+    display: block;
+    margin: 0 auto 30px;
+    float: none;
+  }
+  .row-item{
+    text-align: center;
+  }
+
+}

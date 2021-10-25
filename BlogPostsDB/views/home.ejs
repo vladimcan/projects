@@ -1,0 +1,16 @@
+<%- include('partials/header')-%>
+
+    <h1>Home</h1>
+    <p><%- startingContent %></p>
+    <% for (let i = renderedPosts.length - 1; i >= 0; --i) { %>
+      <h1><%= renderedPosts[i].title%></h1>
+      <h3><%= renderedPosts[i].dateOfPost.toString().substring(0,21);%></h3>
+      <% if (renderedPosts[i].content.length < 100 ) { %>
+        <p><%= renderedPosts[i].content %></p>
+      <% } else { %>
+        <p><%= renderedPosts[i].content.substring(0,100) %> ...
+          <a href="/posts/<%=renderedPosts[i]._id%>"> Read More</a></p>
+      <% } %>
+   <% } %>
+
+<%- include('partials/footer')-%>
