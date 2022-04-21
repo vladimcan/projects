@@ -9,7 +9,7 @@ The first part is an extension for Chrome to collect data such as address, prope
 
 The second part is a website that give you means to show the data using various search and sort options.
 
-(https://github.com/vladimcan/projects/blob/2aa2e9f55c7d9cf6901dd9dda3c48df60f2c3400/MySite/images/yourFavHouse.png)
+![](https://github.com/vladimcan/projects/blob/2aa2e9f55c7d9cf6901dd9dda3c48df60f2c3400/MySite/images/yourFavHouse.png)
 
 The database and the website work on a local server.
 
