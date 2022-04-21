@@ -4,7 +4,7 @@ This project scrapes a real estate website for property listings and provides a 
 The project consists of two parts. 
 
 The first part is an extension for Chrome to collect data such as address, property type, price, publication and discard dates, number of bed/bathrooms, year of building, lot square, and store it in the database. 
-![Alt-текст](/MySite/images/siteimg1.png )
+!(/MySite/images/siteimg1.png )
 
 
 The second part is a website that give you means to show the data using various search and sort options.
