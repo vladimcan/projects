@@ -1,0 +1,44 @@
+<%- include('partials/header')-%>
+<div class="page">
+    <h3>Page for verification reading site</h3>
+    <div class="ptext">
+        <p>Read all pages to save in temDB.</p>
+        <p>The number of read records must be equal the number of records on the site.</p>
+        <p>Hit COPMARE after that.</p>
+    </div>
+    
+    <div class="divtab">
+        <table style="width:100%">
+            <tr class="header">
+              <th style="width:3%">N</th>
+              <th style="width:25%">Address</th>
+              <th style="width:8%">Price</th>
+              <th style="width:8%">Pablished</th>
+              <th style="width:8%">Discarded</th>          
+              <th style="width:8%">Type</th>
+              <th style="width:3%">Beds</th>
+              <th style="width:3%">Baths</th>
+              <th style="width:4%">Year</th>
+              <th style="width:5%">Squeare</th>      
+            </tr>  
+               
+            <% for (let i = 0; i < allHouses.length; i++) { %>
+               <tr>
+                <td ><%= i+1 %>:</td>
+                <td ><%= allHouses[i].address %></td>
+                <td ><%= allHouses[i].price %></td>
+                <td class = "centertd"><%= allHouses[i].publishDate %></td>
+                <td class = "centertd"><%= allHouses[i].removeDate %></td>   
+                <td class = "centertd"><%= allHouses[i].typeHouse %></td>
+                <td ><%= allHouses[i].bed %></td>
+                <td ><%= allHouses[i].bath %></td>
+                <td class = "centertd"><%= allHouses[i].bultYear %></td>
+                <td ><%= allHouses[i].sq %></td> 
+               </tr>                    
+            <% } %>
+        </table>
+    </div>
+</div>
+    
+    
+<%- include('partials/footer')-%>
