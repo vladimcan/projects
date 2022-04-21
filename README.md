@@ -1,4 +1,4 @@
-# Your favorite houses
+# Your Favorite Houses
 This project scrapes a real estate website for property listings and provides a deeper view on the market. Information is never deleted, and you can view listing history for a selected area, see how long each listing existed for, and if it was removed and then relisted again (usually done to refresh the “days on market” counter). 
 
 The project consists of two parts. The first part is an extension for Chrome to collect data such as address, property type, price, publication and discard dates, number of bed/bathrooms, year of building, lot square, and store it in the database. The second part is a website that give you means to show the data using various search and sort options.
