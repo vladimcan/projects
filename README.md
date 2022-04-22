@@ -39,18 +39,21 @@ The database and the website work on a local server.
 A basic blog platform to share your thoughts with the world. Written in Node.js with Express.js, this site utilizes form submission and a back-end database MongoDB to store and retrieve user entries. Data is stored on the cloud and managed by MongoDB Atlas.
  
  # Game of Dice
+ https://dry-everglades-43411.herokuapp.com/
  
  ![](/MySite/images/diceGame.png)
  
  A simple game written in pure JavaScript manipulating DOM elements. There are two players and each rolls a dice. Whoever gets the highest score wins.
  
  # TinDog
+ https://evening-peak-37200.herokuapp.com/
  
  ![](/MySite/images/tinDog.png)
  
  Can Tinder for Dogs be a thing? Designed in Bootstrap from scratch, this is a concept mock-up to do just that. I've used grid, carousel, cards, CSS to rotate the image.     
       
  # ToDoList
+ https://limitless-stream-81795.herokuapp.com/
  
  ![](/MySite/images/toDoList.png)
  
