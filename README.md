@@ -1,5 +1,6 @@
  # MySite
-https://vladimcan.github.io/mysite/https://vladimcan.github.io/mysite/ 
+https://vladimcan.github.io/mysite/
+
  ![](/MySite/images/mySite.png)
  
  This site is written in pure HTML and CSS without any framework. The purpose is to briefly introduce myself and provide some examples of my work, as well as display a few technologies I am familiar with.
