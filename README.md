@@ -32,12 +32,13 @@ The second part is a website that give you means to show the data using various 
 
 The database and the website work on a local server.
 
-# BlogPostsDB( Daily Journal)
-
-![](/MySite/images/dailyJournal.png)
-
-A basic blog platform to share your thoughts with the world. Written in Node.js with Express.js, this site utilizes form submission and a back-end database MongoDB to store and retrieve user entries. Data is stored on the cloud and managed by MongoDB Atlas.
+ # ToDoList
+ https://limitless-stream-81795.herokuapp.com/
  
+ ![](/MySite/images/toDoList.png)
+ 
+ A simple task tracker allows you to enter and delete items off your list. Plans for the day? Things to pack for a trip? The To Do List got you covered! It is written in React, HTML and CSS.
+
  # Game of Dice
  https://dry-everglades-43411.herokuapp.com/
  
@@ -51,11 +52,10 @@ A basic blog platform to share your thoughts with the world. Written in Node.js 
  ![](/MySite/images/tinDog.png)
  
  Can Tinder for Dogs be a thing? Designed in Bootstrap from scratch, this is a concept mock-up to do just that. I've used grid, carousel, cards, CSS to rotate the image.     
-      
- # ToDoList
- https://limitless-stream-81795.herokuapp.com/
- 
- ![](/MySite/images/toDoList.png)
- 
- A simple task tracker allows you to enter and delete items off your list. Plans for the day? Things to pack for a trip? The To Do List got you covered! It is written in React, HTML and CSS.
+    
+ # BlogPostsDB( Daily Journal)
 
+![](/MySite/images/dailyJournal.png)
+
+A basic blog platform to share your thoughts with the world. Written in Node.js with Express.js, this site utilizes form submission and a back-end database MongoDB to store and retrieve user entries. Data is stored on the cloud and managed by MongoDB Atlas.
+ 
