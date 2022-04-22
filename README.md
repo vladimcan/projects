@@ -1,3 +1,10 @@
+ # MySite
+https://vladimcan.github.io/mysite/https://vladimcan.github.io/mysite/ 
+ ![](/MySite/images/mySite.png)
+ 
+ This site is written in pure HTML and CSS without any framework. The purpose is to briefly introduce myself and provide some examples of my work, as well as display a few technologies I am familiar with.
+      
+
 # Your Favorite House
 
 ![](/MySite/images/yourFavHouse.png)
@@ -36,12 +43,6 @@ A basic blog platform to share your thoughts with the world. Written in Node.js 
  
  A simple game written in pure JavaScript manipulating DOM elements. There are two players and each rolls a dice. Whoever gets the highest score wins.
  
- # MySite
- 
- ![](/MySite/images/mySite.png)
- 
- This site is written in pure HTML and CSS without any framework. The purpose is to briefly introduce myself and provide some examples of my work, as well as display a few technologies I am familiar with.
-      
  # TinDog
  
  ![](/MySite/images/tinDog.png)
